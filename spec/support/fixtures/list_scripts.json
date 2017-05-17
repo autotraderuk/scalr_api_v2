@@ -1,0 +1,44 @@
+{
+	"meta": {
+		"requestId": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
+		"stringToSign": "GET\n2017-05-03T14:34:09Z+00:00\n\/api\/v1beta0\/user\/1\/scripts\/\n\n"
+	},
+	"data": [{
+		"id": 1,
+		"name": "test1",
+		"description": "test1",
+		"osType": "linux",
+		"blockingDefault": 1,
+		"timeoutDefault": null,
+		"added": "2015-06-25T14:51:34Z",
+		"lastChanged": "2015-07-27T10:37:22Z",
+		"scope": "account"
+	}, {
+		"id": 2,
+		"name": "test2",
+		"description": "test2",
+		"osType": "linux",
+		"blockingDefault": 1,
+		"timeoutDefault": null,
+		"added": "2016-08-09T15:25:40Z",
+		"lastChanged": "2017-04-03T09:36:13Z",
+		"scope": "account"
+	}, {
+		"id": 3,
+		"name": "test3",
+		"description": "test3",
+		"osType": "linux",
+		"blockingDefault": 1,
+		"timeoutDefault": 1,
+		"added": "2017-04-13T16:56:22Z",
+		"lastChanged": "2017-04-13T16:56:22Z",
+		"scope": "environment"
+	}],
+	"pagination": {
+		"first": null,
+		"last": null,
+		"prev": null,
+		"next": null
+	},
+	"warnings": []
+}

@@ -1,0 +1,28 @@
+{
+  "data": {
+    "added": "2013-01-01T12:34:56.789Z", 
+    "blockingDefault": true, 
+    "description": "string", 
+    "id": 1, 
+    "lastChanged": "2013-01-01T12:34:56.789Z", 
+    "name": "newscript", 
+    "osType": "linux", 
+    "scope": "scalr", 
+    "timeoutDefault": 1
+  }, 
+  "errors": [
+    {
+      "code": "string", 
+      "message": "string"
+    }
+  ], 
+  "meta": {
+    "sample": "string"
+  }, 
+  "warnings": [
+    {
+      "code": "string", 
+      "message": "string"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "data": {
+    "added": "2013-01-01T12:34:56.789Z", 
+    "body": "#!/bin/bash\\necho \"hello world\"", 
+    "script": {
+      "id": 1
+    }, 
+    "version": 1
+  }, 
+  "errors": [
+    {
+      "code": "string", 
+      "message": "string"
+    }
+  ], 
+  "meta": {
+    "sample": "string"
+  }, 
+  "warnings": [
+    {
+      "code": "string", 
+      "message": "string"
+    }
+  ]
+}

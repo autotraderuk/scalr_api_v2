@@ -1,0 +1,3 @@
+#!/usr/bin/env ruby
+require 'scalr_api_v2/cli'
+ScalrApiV2::CLI.start

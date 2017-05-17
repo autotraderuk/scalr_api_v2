@@ -1,0 +1,109 @@
+{
+  "data": [
+    {
+      "description": "string", 
+      "id": 1, 
+      "launchOrder": "simultaneous", 
+      "locked": {
+        "comment": "string", 
+        "unlockPermission": "owner", 
+        "user": {
+          "id": 1
+        }
+      }, 
+      "name": "string", 
+      "owner": {
+        "email": "string", 
+        "id": 1
+      }, 
+      "project": {
+        "id": "string"
+      }, 
+      "status": "running", 
+      "teams": [
+        {
+          "id": 1, 
+          "name": "string"
+        }
+      ], 
+      "timezone": "string"
+    },
+    {
+      "description": "string", 
+      "id": 2, 
+      "launchOrder": "simultaneous", 
+      "locked": {
+        "comment": "string", 
+        "unlockPermission": "owner", 
+        "user": {
+          "id": 1
+        }
+      }, 
+      "name": "string", 
+      "owner": {
+        "email": "string", 
+        "id": 1
+      }, 
+      "project": {
+        "id": "string"
+      }, 
+      "status": "running", 
+      "teams": [
+        {
+          "id": 1, 
+          "name": "string"
+        }
+      ], 
+      "timezone": "string"
+    },
+    {
+      "description": "string", 
+      "id": 3, 
+      "launchOrder": "simultaneous", 
+      "locked": {
+        "comment": "string", 
+        "unlockPermission": "owner", 
+        "user": {
+          "id": 1
+        }
+      }, 
+      "name": "string", 
+      "owner": {
+        "email": "string", 
+        "id": 1
+      }, 
+      "project": {
+        "id": "string"
+      }, 
+      "status": "running", 
+      "teams": [
+        {
+          "id": 1, 
+          "name": "string"
+        }
+      ], 
+      "timezone": "string"
+    }
+  ], 
+  "errors": [
+    {
+      "code": "string", 
+      "message": "string"
+    }
+  ], 
+  "meta": {
+    "sample": "string"
+  }, 
+  "pagination": {
+    "first": null,
+    "last": null, 
+    "next": null, 
+    "prev": null
+  }, 
+  "warnings": [
+    {
+      "code": "string", 
+      "message": "string"
+    }
+  ]
+}
