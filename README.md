@@ -26,7 +26,7 @@ Set the below environment variables:
     export SCALR_API_KEY=your-api-key
     export SCALR_API_SECRET=your-api-secret
     export SCALR_URL=scalr-api-url
-    export SCALR_ENV_ID=id-of-desired-environment
+    export SCALR_ENV_ID=id-of-desired-environment (optional determines if request is sent as user or account i.e 'GET /api/v1beta0/account/scripts/' or 'GET /api/v1beta0/user/envId/scripts/'. defaults to account mode.)
 
 ### in your code
 
