@@ -2,6 +2,7 @@
 $LOAD_PATH.unshift File.expand_path('/home/vagrant/scalr_api_v2/spec/support', __FILE__)
 require 'webmock/cucumber'
 
+=begin
 # fake API service with sinatra
 require 'fake_scalr'
 
@@ -12,3 +13,4 @@ allowed_sites = lambda do |uri|
 end
 
 WebMock.disable_net_connect!(allow: allowed_sites)
+=end
