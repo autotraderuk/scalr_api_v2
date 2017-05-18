@@ -11,7 +11,7 @@ module ScalrApiV2
 
     # List all scripts
     def list
-      list = @scalr.list(format('/api/v1beta0/user/%s/servers/', @config['env_id']))
+      list = @scalr.list(format('/api/v1beta0/%s/servers/', @config['mode_path']))
       return list
     end
 

@@ -1,0 +1,8 @@
+== 0.2.0
+
+* Added account/user logic based on SCALR_ENV_ID being set. Defaults to 'account' mode if nil
+* Added Tests
+
+== 0.1.1
+
+* Initial version

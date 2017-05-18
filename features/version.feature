@@ -4,4 +4,4 @@ Feature: ScalrApiV2
 
   Scenario: Has a version
     When I run `scalr_api_v2 version`
-    Then the output should contain "0.1.1"
+    Then the output should contain "0.2.0
