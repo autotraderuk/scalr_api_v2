@@ -1,6 +1,7 @@
+[![Build Status](https://travis-ci.org/autotraderuk/scalr_api_v2.svg?branch=master)](https://travis-ci.org/autotraderuk/scalr_api_v2)
 # ScalrApiV2
 
-Ruby gem to allow you to develop against the V2 of the ths [SCALR API](https://api-explorer.scalr.com)
+Ruby gem to allow you to develop against V2 of the [SCALR API](https://api-explorer.scalr.com)
 
 ## Installation
 
