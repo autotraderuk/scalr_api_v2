@@ -5,4 +5,6 @@ rvm:
 before_install: gem install bundler -v 1.12.5
 script:
 - bundle install --path=localbundle
+- bundle exec rubocop
 - bundle exec rspec
+- bundle exec cucumber
