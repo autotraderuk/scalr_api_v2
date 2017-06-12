@@ -15,6 +15,18 @@ module ScalrApiV2
       return list
     end
 
+    # List farm details
+    def get_farm(farm_id)
+      list = @scalr.list(format('/api/v1beta0/%s/farms/%s', @config['mode_path'], farm_id))
+      return list
+    end
+
+    # List farm details
+    def list_farm_servers(farm_id)
+      list = @scalr.list(format('/api/v1beta0/%s/farms/%s/servers/', @config['mode_path'], farm_id))
+      return list
+    end
+
     # TODO: add remainig api calls
   end
 end

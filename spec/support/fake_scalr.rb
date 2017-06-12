@@ -42,6 +42,16 @@ class FakeScalr < Sinatra::Base
     json_response 200, 'list_farms.json'
   end
 
+  # get farm
+  get '/api/v1beta0/*/farms/100' do
+    json_response 200, 'get_farm.json'
+  end
+
+  # list farm servers
+  get '/api/v1beta0/*/farms/101/servers/' do
+    json_response 200, 'list_farm_servers.json'
+  end
+
   # list servers
   get '/api/v1beta0/*/servers/' do
     json_response 200, 'list_servers.json'

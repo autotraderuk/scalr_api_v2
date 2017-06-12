@@ -1,3 +1,7 @@
+== 0.2.2
+
+* Added: Scripts::get_farm, Scripts::list_farm_servers and tests
+
 == 0.2.1
 
 * Bugfix: duplicate json encoding was taking place in Scripts class
