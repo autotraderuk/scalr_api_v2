@@ -1,0 +1,33 @@
+{
+  "data": [
+    {
+      "image": {
+        "id": "1"
+      }, 
+      "role": {
+        "id": 1
+      }
+    }
+  ], 
+  "errors": [
+    {
+      "code": "string", 
+      "message": "string"
+    }
+  ], 
+  "meta": {
+    "sample": "string"
+  }, 
+  "pagination": {
+    "first": null, 
+    "last": null, 
+    "next": null, 
+    "prev": null
+  }, 
+  "warnings": [
+    {
+      "code": "string", 
+      "message": "string"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "data": {
+    "added": "2013-01-01T12:34:56.789Z", 
+    "architecture": "i386", 
+    "cloudImageId": "string", 
+    "cloudInitInstalled": true, 
+    "cloudLocation": "string", 
+    "cloudPlatform": "ec2", 
+    "deprecated": true, 
+    "id": "string", 
+    "lastUsed": "2013-01-01T12:34:56.789Z", 
+    "name": "newimage1", 
+    "os": {
+      "id": "centos-7-x"
+    }, 
+    "scalrAgentInstalled": true, 
+    "scope": "scalr", 
+    "size": 1, 
+    "source": "Manual", 
+    "status": "active", 
+    "statusError": "string", 
+    "type": "string"
+  }, 
+  "errors": [
+    {
+      "code": "string", 
+      "message": "string"
+    }
+  ], 
+  "meta": {
+    "sample": "string"
+  }, 
+  "warnings": [
+    {
+      "code": "string", 
+      "message": "string"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "data": {
+    "image": {
+      "id": "1"
+    }, 
+    "role": {
+      "id": 1
+    }
+  }, 
+  "errors": [
+    {
+      "code": "string", 
+      "message": "string"
+    }
+  ], 
+  "meta": {
+    "sample": "string"
+  }, 
+  "warnings": [
+    {
+      "code": "string", 
+      "message": "string"
+    }
+  ]
+}

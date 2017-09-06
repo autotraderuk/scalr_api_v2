@@ -1,0 +1,69 @@
+{
+  "data": [
+    {
+      "added": "2013-01-01T12:34:56.789Z", 
+      "architecture": "i386", 
+      "cloudImageId": "string", 
+      "cloudInitInstalled": true, 
+      "cloudLocation": "string", 
+      "cloudPlatform": "ec2", 
+      "deprecated": true, 
+      "id": "1", 
+      "lastUsed": "2013-01-01T12:34:56.789Z", 
+      "name": "string", 
+      "os": {
+        "id": "string"
+      }, 
+      "scalrAgentInstalled": true, 
+      "scope": "scalr", 
+      "size": 1, 
+      "source": "Manual", 
+      "status": "active", 
+      "statusError": "string", 
+      "type": "string"
+    },
+    {
+      "added": "2013-01-01T12:34:56.789Z", 
+      "architecture": "i386", 
+      "cloudImageId": "string", 
+      "cloudInitInstalled": true, 
+      "cloudLocation": "string", 
+      "cloudPlatform": "ec2", 
+      "deprecated": true, 
+      "id": "2", 
+      "lastUsed": "2013-01-01T12:34:56.789Z", 
+      "name": "string", 
+      "os": {
+        "id": "string"
+      }, 
+      "scalrAgentInstalled": true, 
+      "scope": "scalr", 
+      "size": 1, 
+      "source": "Manual", 
+      "status": "active", 
+      "statusError": "string", 
+      "type": "string"
+    }
+  ], 
+  "errors": [
+    {
+      "code": "string", 
+      "message": "string"
+    }
+  ], 
+  "meta": {
+    "sample": "string"
+  }, 
+  "pagination": {
+    "first": null, 
+    "last": null, 
+    "next": null, 
+    "prev": null
+  }, 
+  "warnings": [
+    {
+      "code": "string", 
+      "message": "string"
+    }
+  ]
+}
