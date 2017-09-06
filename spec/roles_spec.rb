@@ -22,7 +22,7 @@ end
 describe 'ScalrApiV2::Roles.create' do
   subject do
     with_modified_env SCALR_URL: 'https://test.scalr.local', SCALR_KEY_ID: '1234', SCALR_KEY_SECRET: '5678', SCALR_ENV_ID: '1' do
-      ScalrApiV2::Roles.new.create({ 'builtinAutomation' => ['base', 'chef'], 'category' => { 'id' => 1 }, 'name' => 'apirolemike', 'os' => { 'id' => 'centos-7-x' } })
+      ScalrApiV2::Roles.new.create({ 'builtinAutomation' => %w[base chef], 'category' => { 'id' => 1 }, 'name' => 'apirolemike', 'os' => { 'id' => 'centos-7-x' } })
     end
   end
 
