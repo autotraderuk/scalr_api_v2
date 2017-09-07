@@ -57,6 +57,41 @@ class FakeScalr < Sinatra::Base
     json_response 200, 'list_servers.json'
   end
 
+  # list images
+  get '/api/v1beta0/user/1/images/' do
+    json_response 200, 'list_images.json'
+  end
+
+  # delete image
+  delete '/api/v1beta0/user/1/images/1' do
+    json_response 200, nil
+  end
+
+  # create image
+  post '/api/v1beta0/user/1/images/' do
+    json_response 200, 'create_image.json'
+  end
+
+  # list roles
+  get '/api/v1beta0/user/1/roles/' do
+    json_response 200, 'list_roles.json'
+  end
+
+  # create role
+  post '/api/v1beta0/user/1/roles/' do
+    json_response 201, 'create_role.json'
+  end
+
+  # list role images
+  get '/api/v1beta0/user/1/roles/1/images' do
+    json_response 200, 'list_role_images.json'
+  end
+
+  # associate image with role
+  post '/api/v1beta0/user/1/roles/1/images' do
+    json_response 200, 'associate_image_role.json'
+  end
+
   private
 
   def json_response(response_code, file_name)

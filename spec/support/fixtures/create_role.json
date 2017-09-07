@@ -1,0 +1,37 @@
+
+{
+  "data": {
+    "builtinAutomation": [
+      "base"
+    ], 
+    "category": {
+      "id": 1
+    }, 
+    "deprecated": true, 
+    "description": "string", 
+    "id": 1, 
+    "name": "newrole1", 
+    "os": {
+      "id": "centos-7-x"
+    }, 
+    "quickStart": true, 
+    "quickStartGroup": "string", 
+    "scope": "scalr", 
+    "useScalrAgent": true
+  }, 
+  "errors": [
+    {
+      "code": "string", 
+      "message": "string"
+    }
+  ], 
+  "meta": {
+    "sample": "string"
+  }, 
+  "warnings": [
+    {
+      "code": "string", 
+      "message": "string"
+    }
+  ]
+}
