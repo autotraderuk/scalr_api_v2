@@ -1,3 +1,8 @@
+== 0.3.2
+
+* Added: Images::list,create,delete
+* Added: Roles::list,create,delete,list_role_images,associate_role_image
+
 == 0.2.2
 
 * Added: Scripts::get_farm, Scripts::list_farm_servers and tests

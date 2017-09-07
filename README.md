@@ -41,7 +41,7 @@ Set the below environment variables:
     
 ### limitations
 
-At present there is a limited subset of api commands avaialble via this GEM. Functionality is limited to working with scripts. As well as listing farms and servers.
+At present there is a limited subset of api commands avaialble via this GEM. Functionality is limited to working with scripts, images & roles. As well as listing farms and servers.
 Examples of the functionality provided can be found in the rspec tests.
 
 ## Development
